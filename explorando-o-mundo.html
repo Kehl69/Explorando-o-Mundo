@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Explorando o Mundo</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+        header, footer { background-color: #2e86de; color: white; padding: 20px; text-align: center; }
+        nav ul { list-style: none; padding: 0; display: flex; justify-content: center; background-color: #dff9fb; margin: 0; }
+        nav ul li { margin: 0 15px; }
+        nav ul li a { text-decoration: none; color: #130f40; font-weight: bold; }
+        section, aside { padding: 20px; }
+        article { margin-bottom: 20px; }
+        footer a { color: white; margin: 0 10px; }
+        img { max-width: 100%; height: auto; }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Explorando o Mundo</h1>
+    <h2>Relatos e dicas para suas próximas aventuras</h2>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="#europa" title="Viagens pela Europa">Europa</a></li>
+        <li><a href="#asia" title="Viagens pela Ásia">Ásia</a></li>
+        <li><a href="#america" title="Viagens pela América do Sul">América do Sul</a></li>
+        <li><a href="#dicas" title="Dicas de viagem">Dicas</a></li>
+        <li><a href="#contato" title="Fale conosco">Contato</a></li>
+    </ul>
+</nav>
+
+<section id="europa">
+    <h3>Viagens pela Europa</h3>
+    <article>
+        <h4>Paris, França</h4>
+        <p>Visitar <strong>a Torre Eiffel</strong> foi uma experiência inesquecível. <em>Recomendo visitar à noite</em>, quando está toda iluminada.</p>
+        <p>Além disso, caminhar às margens do Rio Sena foi encantador. Os cafés parisienses oferecem uma culinária deliciosa – não deixe de provar o croissant e o crème brûlée. O Museu do Louvre também é parada obrigatória, com obras impressionantes como a Mona Lisa e a Vênus de Milo.</p>
+        <p>A cidade respira arte, história e romantismo. É fácil se perder pelas ruas de Montmartre, onde artistas locais exibem seu trabalho ao ar livre. O metrô facilita bastante a locomoção, e a segurança é boa, especialmente durante o dia.</p>
+        <img src="paris.jpg" alt="Torre Eiffel iluminada à noite" title="Torre Eiffel à noite">
+    </article>
+</section>
+
+<section id="asia">
+    <h3>Viagens pela Ásia</h3>
+    <article>
+        <h4>Quioto, Japão</h4>
+        <p>Os <strong>templos antigos</strong> de Quioto são incríveis. <em>A cultura japonesa é fascinante</em> e os jardins são muito bem cuidados.</p>
+        <p>Durante minha estadia, visitei o Templo Kinkaku-ji (Pavilhão Dourado), que é cercado por um lago calmo e jardins imaculadamente organizados. Também participei de uma cerimônia do chá, onde aprendi sobre o respeito e a espiritualidade por trás da tradição japonesa.</p>
+        <p>Os trens-bala são super pontuais e tornam as viagens pelo Japão extremamente eficientes. A culinária local surpreende com sabores únicos – desde o sushi fresco ao ramen servido em pequenas barraquinhas de rua.</p>
+        <audio src="sons-andinos.mp3" controls autoplay title="Música típica peruana">Seu navegador não suporta áudio.</audio>
+    </article>
+</section>
+
+<section id="america">
+    <h3>Viagens pela América do Sul</h3>
+    <article>
+        <h4>Machu Picchu, Peru</h4>
+        <p>A trilha Inca é <strong>desafiadora</strong>, mas chegar a Machu Picchu compensa todo o esforço.</p>
+        <p>O caminho oferece vistas espetaculares da Cordilheira dos Andes, com vales profundos e florestas nebulosas. A cada passo, é possível sentir a energia mística das montanhas e refletir sobre a incrível engenharia dos Incas.</p>
+        <p>Em Cusco, cidade base para a maioria dos viajantes, provei pratos típicos como ceviche e lomo saltado. A hospitalidade dos peruanos é acolhedora, e a conexão com a cultura local é enriquecedora. Também recomendo visitar o Vale Sagrado e as salinas de Maras.</p>
+        <video src="japao.mp4" controls title="Vídeo do templo em Quioto">Seu navegador não suporta vídeo.</video>
+    </article>
+</section>
+
+<section id="dicas">
+    <h3>Dicas de Viagem</h3>
+    <article>
+        <h4>O que levar na mala</h4>
+        <ul>
+            <li>Documentos</li>
+            <li>Roupas adequadas ao clima</li>
+            <li>Kit de primeiros socorros</li>
+        </ul>
+    </article>
+    <article>
+        <h4>Como planejar um roteiro</h4>
+        <ol>
+            <li>Defina os destinos</li>
+            <li>Pesquise sobre transporte</li>
+            <li>Faça reservas com antecedência</li>
+        </ol>
+    </article>
+</section>
+
+<aside>
+    <h3>Conteúdo Relacionado</h3>
+    <p>Confira também:</p>
+    <ul>
+        <li><a href="https://outroblog.com" title="Outro blog de viagem">Outro Blog de Viagem</a></li>
+        <li><a href="https://guiadeviagens.com" title="Guia de Viagens">Guia de Viagens</a></li>
+    </ul>
+    <blockquote cite="https://viagensinspiradoras.com">
+        "Viajar é a única coisa que você compra e que te deixa mais rico." — Viagens Inspiradoras
+    </blockquote>
+</aside>
+
+<section id="contato">
+    <h3>Formulário de Contato</h3>
+    <form action="#" method="post">
+        <label for="nome">Nome:</label><br>
+        <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" placeholder="Digite seu email" required><br><br>
+
+        <label for="mensagem">Mensagem:</label><br>
+        <textarea id="mensagem" name="mensagem" rows="5" cols="30" placeholder="Digite sua mensagem aqui..." required></textarea><br><br>
+
+        <label for="assunto">Assunto:</label><br>
+        <select id="assunto" name="assunto">
+            <option value="duvida">Dúvida</option>
+            <option value="sugestao">Sugestão</option>
+            <option value="outro">Outro</option>
+        </select><br><br>
+
+        <button type="submit">Enviar</button>
+    </form>
+</section>
+
+<footer>
+    <p>&copy; 2025 Explorando o Mundo. Todos os direitos reservados.</p>
+    <p>Contato: <a href="mailto:contato@explorandomundo.com">contato@explorandomundo.com</a></p>
+    <p>
+        <a href="#europa">Europa</a> |
+        <a href="#asia">Ásia</a> |
+        <a href="#america">América do Sul</a>
+    </p>
+</footer>
+
+</body>
+</html>
+
